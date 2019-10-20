@@ -103,3 +103,37 @@ background-color:#FFFFFF;
             padding:90px;
         }
 
+        .thirdContainer {
+            border:1px solid black;
+            margin-top: 40px;
+        }
+
+        .mainHeading {
+            margin:20px;
+            padding: 60px;
+        }
+
+        #main {
+               font-family: 'Roboto', sans-serif;
+               font-size:26px;
+               font-weight: bold;
+        }
+
+        #sub {
+              font-family: 'Oswald', sans-serif;
+              font-size:18px;
+              font-weight: 500;
+        }
+
+        #para {
+                  font-family: 'Lora', serif;
+                  font-size: 14px;
+                  font-weight: 400;
+        }
+
+        @media screen and (max-width: 600px) {
+                .title {
+                    font-size: 18px;
+                }
+
+         }
